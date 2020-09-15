@@ -5,5 +5,14 @@ Anna Lobodenko
 -------------------     ----------------------------
 **Contact me:**
 ============
-**e-mail:** anna.lobodenko@gmail.com
-**phone number:** +375291605462
+**e-mail:** anna.lobodenko@gmail.com  
+
+**phone number:** +375291605462  
+
+
+About me:
+---------
+
+
+
+
