@@ -1,0 +1,87 @@
+body {
+  width: 1000px;
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  border: 0;  
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;  
+  list-style: none;
+}
+
+.contacts__link:hover { opacity: 0.5; }
+
+.contacts__link-phone {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/phoneicon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.contacts__link-tg {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/telegramicon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.contacts__link-gh {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/githubicon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.contacts__link-email {
+  display: block;
+  width: 40px;
+  height: 40px;  
+  background-image: url(../img/gmailicon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.lobodanya__avatar {
+  float: left;
+  width: 140px;  
+  padding-right: 50px;
+}
+
+.lobodanya__text {
+  width: 1000px;
+  margin-bottom: 100px;
+}
+
+.skills { column-count: 2; }
